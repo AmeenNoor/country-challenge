@@ -120,3 +120,52 @@ function guessedWord() {
     }
     return guessWord;
 }
+
+/**
+ * Function to add color to spots  If the guessed letter is correct and in the 
+ * right position, it's marked green; if correct but in the wrong position, 
+ * it's marked orange. Otherwise, it's marked gray to indicate an incorrect letter.
+ */
+function addColorToSpot() {
+    let guessed = guessedWord();
+    for (let i = 0; i < spots.length; i++) {
+        if (guessed[i] === secret[i] && secret.includes(spots[i].textContent)) {
+            spots[i].style.backgroundColor = "#7FFFD4";
+        } else if (guessed[i] !== secret[i] && secret.includes(spots[i].textContent)) {
+            spots[i].style.backgroundColor = "#FBCEB1";
+        } else {
+            spots[i].style.backgroundColor = "#E7E6E9";
+        }
+    }
+}
+
+/**
+ * Function to add color to keyboard If the guessed letter is correct and in 
+ * the right position, it's marked green; if correct but in the wrong position,
+ *  it's marked orange. Otherwise, it's marked gray to indicate an incorrect letter.
+ */
+function addColorToKeyboard() {
+    let guessed = guessedWord();
+    let keyboardRows = document.getElementsByClassName('keyboard_row');
+
+    for (let i = 0; i < keyboardRows.length; i++) {
+        let keyboardKeys = keyboardRows[i].getElementsByClassName('letter');
+        for (let j = 0; j < keyboardKeys.length; j++) {
+            let color;
+            if (guessed.includes(keyboardKeys[j].textContent)) {
+                let secretLetterIndex = secret.indexOf(keyboardKeys[j].textContent);
+                let guessedLetterIndex = guessed.indexOf(keyboardKeys[j].textContent);
+
+                if (secretLetterIndex === guessedLetterIndex) {
+                    color = "#7FFFD4";
+                } else if (secret.includes(keyboardKeys[j].textContent)) {
+                    color = "#FBCEB1";
+                } else {
+                    color = "#E7E6E9";
+                }
+            }
+
+            keyboardKeys[j].style.backgroundColor = color;
+        }
+    }
+}
