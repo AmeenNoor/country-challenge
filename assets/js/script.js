@@ -169,3 +169,22 @@ function addColorToKeyboard() {
         }
     }
 }
+
+/**
+ * Function to reset the game after player win or lose
+ */
+function resetGame() {
+    for (let i = 0; i < document.getElementsByClassName('spot').length; i++) {
+        document.getElementsByClassName('spot')[i].textContent = '';
+        document.getElementsByClassName('spot')[i].style.backgroundColor = "white";
+    }
+    for (let i = 0; i < document.getElementsByClassName('key').length; i++) {
+        document.getElementsByClassName('key')[i].style.backgroundColor = "#f2f2f2";
+    }
+
+    currentSpot = 0;
+    currentRow = 0;
+    spots = rows[currentRow].children;
+    guessed = guessedWord();
+    secret = secretWord();
+}

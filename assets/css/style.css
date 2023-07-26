@@ -25,6 +25,20 @@ h1 {
     margin-top: 50px;
 }
 
+/* ICONS STYLES */
+#icons {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 60px;
+}
+
+.fa-solid {
+    display: flex;
+    margin: auto 100px;
+    cursor: pointer;
+}
+
 /*----------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------*/
 /*------------------------- GAME CONTAINER STYLES ----------------------------*/
