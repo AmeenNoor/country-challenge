@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;800&family=Rye&display=swap');
+
+/* Remove default margins, padding, and borders */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Nanum Myeongjo', serif;
+    margin: 0 auto;
+    background-color: #f5cac2;
+    color: #303179;
+}
