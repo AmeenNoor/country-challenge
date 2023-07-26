@@ -13,3 +13,55 @@ body {
     background-color: #f5cac2;
     color: #303179;
 }
+
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*----------------------------- HEADING STYLES -------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+h1 {
+    font-family: 'Rye', cursive;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*------------------------- GAME CONTAINER STYLES ----------------------------*/
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/* https: //www.w3schools.com/css/css3_flexbox_container.asp */
+#game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#guesses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* SPOT STYLES */
+.row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.spot {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background-color: #f5cac2;
+    box-shadow: 0 0 18px 0 #303179;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+    color: #303179;
+}
