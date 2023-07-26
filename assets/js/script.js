@@ -65,7 +65,10 @@ function checkGuess() {
 }
 
 function removeLetter() {
-
+    if (currentSpot > 0) {
+        currentSpot--;
+        spots[currentSpot].textContent = '';
+    }
 }
 
 function addLetterToSpot(letter) {
