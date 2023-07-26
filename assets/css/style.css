@@ -65,3 +65,51 @@ h1 {
     font-size: 14px;
     color: #303179;
 }
+
+/* KEYBOARD STYLES */
+#keyboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 60%;
+}
+
+.keyboard_row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.key {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-color: #f5cac2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 15px 0 #303179;
+    border-radius: 5px;
+    font-weight: 800;
+
+}
+
+.key:hover {
+    background-color: #e0e0e0;
+}
+
+.key.enter {
+    width: 100px;
+}
+
+.key.backspace {
+    width: 100px;
+}
+
+#guesses,
+#keyboard {
+    display: flex;
+}
