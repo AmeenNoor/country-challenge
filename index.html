@@ -23,7 +23,44 @@
         </nav>
     </header>
     <!-- GAME SECTION -->
-    <div>
+    <div id="game">
+        <!-- WINDOW SECTION-->
+        <div id="setting-window">
+            <span><i class="fa-solid fa-circle-xmark fa-xl" id="close-setting-window"></i><span>
+                    <h2>Settings</h2>
+                    <p>Slide to the right to chnage the theme color</p>
+                    <label class="switch">
+                        <input type="checkbox" id="switchCheckbox">
+                        <span class="slider round"></span>
+                    </label>
+        </div>
+        <div id="info-window">
+            <span><i class="fa-solid fa-circle-xmark fa-xl" id="close-info-window"></i><span>
+                    <h2>How to play</h2>
+                    <p>You have 6 guesses to guess the correct Country.</p>
+                    <p>After each guess, each letter will turn green, yellow, or gray.</p>
+                    <p>Green => Correct letter, correct spot</p>
+                    <p>Yellow => Correct letter, wrong spot</p>
+                    <p>Gray => Wrong letter</p>
+        </div>
+        <div id="statistic-window">
+            <span><i class="fa-solid fa-circle-xmark fa-xl" id="close-statistic-window"></i><span>
+                    <h2>Statistics</h2>
+                    <p>Games Played: <span id="gamesPlayed">0</span></p>
+                    <p>Games Won: <span id="gamesWon">0</span></p>
+                    <p>Games Lost: <span id="gamesLost">0</span></p>
+        </div>
+        <div id="win">
+            <h2>Congratulation</h2>
+            <p>You Won!!</p>
+            <button id="play-again-win-button">Play Again</button>
+        </div>
+        <div id="lose">
+            <h2>Oops!</h2>
+            <p>The country was: <span id="correct-country"></span></p>
+            <button id="play-again-lose-button">Play Again</button>
+        </div>
+
         <!-- GRID OF SPOTS-->
         <div id="guesses">
             <div class="row">
@@ -69,6 +106,7 @@
                 <div class="spot"></div>
             </div>
         </div>
+
         <!-- KEYBOARD LETTER -->
         <div id="keyboard">
             <div class="keyboard_row">
