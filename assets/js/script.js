@@ -60,10 +60,39 @@ function secretWord() {
     return wordList[randomNumber];
 }
 
+/**
+ * ensures the player enters a 5-letter word in each row. It then verifies whether 
+ * the guessed word matches the correct word. If not, the player will be granted 
+ * 6 lives to make further attempts at guessing the correct word. If the player 
+ * fails to guess the word within these attempts, they will be prompted to play again.
+ */
 function checkGuess() {
+    let guessed = guessedWord();
+    if (guessed.length !== spots.length) {
+        alert('please enter a 5 letter word!');
+    } else {
+        addColorToSpot();
+        addColorToKeyboard();
+        if (guessed === secret) {
+            displayCongratsMessage();
+            incrementGamesPlayedScore();
+            incrementGamesWonScore();
+        } else if (currentRow >= rows.length - 1) {
+            displayOopsMessage();
+            incrementGamesPlayedScore();
+            incrementGamesLostScore();
+        } else {
+            currentRow++;
+            currentSpot = 0;
+            spots = rows[currentRow].children;
+        }
+    }
 
 }
 
+/**
+ *  Function to remove letter from spots
+ */
 function removeLetter() {
     if (currentSpot > 0) {
         currentSpot--;
@@ -71,9 +100,23 @@ function removeLetter() {
     }
 }
 
+/**
+ *  Function to add letter from keyboard to spots
+ */
 function addLetterToSpot(letter) {
     if (currentRow < rows.length && currentSpot < spots.length) {
         spots[currentSpot].textContent = letter;
         currentSpot++;
     }
+}
+
+/** 
+ * Function to assign guessed country by user to guessWord variable.
+*/
+function guessedWord() {
+    let guessWord = '';
+    for (let i = 0; i < spots.length; i++) {
+        guessWord += spots[i].textContent;
+    }
+    return guessWord;
 }
