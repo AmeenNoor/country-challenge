@@ -223,3 +223,20 @@ function showSpotsAndKeyboard() {
     guessesArea.style.display = 'flex';
     keyboardArea.style.display = 'flex';
 }
+
+/**
+ * Function to hide nav icons 
+ */
+function hideIcons() {
+    let navIcon = document.getElementById('icons');
+    navIcon.style.display = 'none';
+}
+
+/**
+ * Function to show nav icons 
+ */
+function showIcons() {
+    let navIcon = document.getElementById('icons');
+    navIcon.style.display = 'flex';
+}
+
