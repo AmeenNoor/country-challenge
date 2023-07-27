@@ -219,10 +219,10 @@ function addColorToKeyboard() {
 function resetGame() {
     for (let i = 0; i < document.getElementsByClassName('spot').length; i++) {
         document.getElementsByClassName('spot')[i].textContent = '';
-        document.getElementsByClassName('spot')[i].style.backgroundColor = "white";
+        document.getElementsByClassName('spot')[i].style.backgroundColor = "#f5cac2";
     }
     for (let i = 0; i < document.getElementsByClassName('key').length; i++) {
-        document.getElementsByClassName('key')[i].style.backgroundColor = "#f2f2f2";
+        document.getElementsByClassName('key')[i].style.backgroundColor = "#f5cac2";
     }
 
     currentSpot = 0;
@@ -351,18 +351,32 @@ function changeToDarkMode(event) {
     let statistic = document.getElementById('statistic-window');
     let setting = document.getElementById('setting-window');
     let info = document.getElementById('info-window');
+    let winDiv = document.getElementById('win');
+    let loseDiv = document.getElementById('lose');
+    let spots = document.getElementsByClassName('spot');
+    let keys = document.getElementsByClassName('key');
     if (event.target.checked) {
         bodyPage.style.backgroundColor = '#303179';
         bodyPage.style.color = '#f5cac2';
         statistic.style.boxShadow = "0 0 60px 0 #f5cac2";
         setting.style.boxShadow = "0 0 60px 0 #f5cac2";
         info.style.boxShadow = "0 0 60px 0 #f5cac2";
+        winDiv.style.boxShadow = "0 0 60px 0 #f5cac2";
+        loseDiv.style.boxShadow = "0 0 60px 0 #f5cac2";
+        for(let spot of spots){
+            spot.style.color = "#303179";
+        }
+        for(let key of keys){
+            key.style.color = "#303179";
+        }        
     } else {
         bodyPage.style.backgroundColor = '#f5cac2';
         bodyPage.style.color = '#303179';
         statistic.style.boxShadow = "0 0 60px 0 #303179";
         setting.style.boxShadow = "0 0 60px 0 #303179";
         info.style.boxShadow = "0 0 60px 0 #303179";
+        winDiv.style.boxShadow = "0 0 60px 0 #303179";
+        loseDiv.style.boxShadow = "0 0 60px 0 #303179";
     }
 }
 

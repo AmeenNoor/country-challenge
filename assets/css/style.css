@@ -75,8 +75,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: bold;
-    font-size: 14px;
+    font-weight: 800;
 }
 
 /* KEYBOARD STYLES */
@@ -136,7 +135,7 @@ h1 {
 #info-window,
 #statistic-window,
 #win,
-#lose {
+#lose, #error-message {
     border-radius: 10px;
     box-shadow: 0 0 60px 0 #303179;
     width: 30%;
@@ -180,7 +179,7 @@ h1 {
 
 /* BUTTON STYLES */
 /* Love Running Project (https://ameennoor.github.io/love-running/) */
-button {
+button, .button {
     position: relative;
     top: 25%;
     left: 36%;
@@ -193,7 +192,7 @@ button {
     box-shadow: 0 0 20px 0 #ed7966;
 }
 
-button:hover {
+button:hover, .button:hover{
     background-color: #fafafa;
     color: #f16c6b;
 }
