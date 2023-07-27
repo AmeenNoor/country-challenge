@@ -385,3 +385,40 @@ function hideCongratsMessage() {
     showSpotsAndKeyboard();
     showIcons();
 }
+
+/**
+ * Function to display oops message if player didn't quess the correct country 
+ */
+function displayOopsMessage() {
+    let loseDiv = document.getElementById('lose');
+    let statistic = document.getElementById('statistic-window');
+    let setting = document.getElementById('setting-window');
+    let info = document.getElementById('info-window');
+    let secret = secretWord();
+    let secretInspan = document.getElementById('correct-country');
+    secretInspan.innerText = secret;   // Love Maths project (https://ameennoor.github.io/love-math/)
+    loseDiv.style.display = 'block';
+    hideIcons();
+    statistic.style.display = 'none';
+    setting.style.display = 'none';
+    info.style.display = 'none';
+    hideSpotsAndKeyboard();
+}
+
+/**
+ * Function to hide oops message
+ */
+function hideOopsMessage() {
+    let loseDiv = document.getElementById('lose');
+    let statistic = document.getElementById('statistic-window');
+    let setting = document.getElementById('setting-window');
+    let info = document.getElementById('info-window');
+    loseDiv.style.display = 'none';
+    statistic.style.display = 'none';
+    setting.style.display = 'none';
+    info.style.display = 'none';
+    showSpotsAndKeyboard();
+    showIcons();
+}
+
+// ***************************************************************************
