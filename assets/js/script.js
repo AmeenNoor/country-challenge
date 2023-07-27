@@ -253,3 +253,17 @@ function navigateToSettingsWindow() {
     hideSpotsAndKeyboard();
     hideIcons();
 }
+
+/**
+ * Function to display info window and hide others window
+ */
+function navigateToInfoWindow() {
+    let info = document.getElementById('info-window');
+    let setting = document.getElementById('setting-window');
+    let statistic = document.getElementById('statistic-window');
+    info.style.display = 'block';
+    setting.style.display = 'none';
+    statistic.style.display = 'none';
+    hideSpotsAndKeyboard();
+    hideIcons();
+}
