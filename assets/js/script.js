@@ -27,13 +27,26 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
+    let closeCircles = document.getElementsByClassName('fa-circle-xmark');
+    for (let closeCircle of closeCircles) {
+        closeCircle.addEventListener("click", function () {
+            if (closeCircle.id === "close-setting-window") {
+                closeSettingsWindow();
+            } else if (closeCircle.id === "close-info-window") {
+                closeInfoWindow();
+            } else {
+                closeStatisticWindow();
+            }
+        });
+    }
+
+
 });
 
 let currentRow = 0;
 let currentSpot = 0;
 let rows = document.getElementsByClassName('row');
 let spots = rows[currentRow].children;
-let secret = secretWord();
 // list of countries 
 let wordList = [
     "ALAND",
@@ -72,6 +85,8 @@ function secretWord() {
     let randomNumber = Math.floor(Math.random() * wordList.length);
     return wordList[randomNumber];
 }
+
+let secret = secretWord();
 
 /**
  * ensures the player enters a 5-letter word in each row. It then verifies whether 
@@ -267,3 +282,50 @@ function navigateToInfoWindow() {
     hideSpotsAndKeyboard();
     hideIcons();
 }
+
+/**
+ * Function to display statistic window and hide others window
+ */
+function navigateToStatisticWindow() {
+    let statistic = document.getElementById('statistic-window');
+    let setting = document.getElementById('setting-window');
+    let info = document.getElementById('info-window');
+    statistic.style.display = 'block';
+    setting.style.display = 'none';
+    info.style.display = 'none';
+    hideSpotsAndKeyboard();
+    hideIcons();
+}
+
+// ***************************************************************************
+/**
+ * Function to close settings window when player press x at the corner 
+ */
+function closeSettingsWindow() {
+    let setting = document.getElementById('setting-window');
+    setting.style.display = 'none';
+    showSpotsAndKeyboard();
+    showIcons();
+}
+
+/**
+ * Function to close info window
+ */
+function closeInfoWindow() {
+    let info = document.getElementById('info-window');
+    info.style.display = 'none';
+    showSpotsAndKeyboard();
+    showIcons();
+}
+
+/**
+ * Function to close statistic window
+ */
+function closeStatisticWindow() {
+    let statistic = document.getElementById('statistic-window');
+    statistic.style.display = 'none';
+    showSpotsAndKeyboard();
+    showIcons();
+}
+
+// ***************************************************************************
