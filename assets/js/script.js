@@ -14,6 +14,19 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
+    let icons = document.getElementsByClassName('icon');
+    for (let icon of icons) {
+        icon.addEventListener("click", function () {
+            if (icon.id === "settings") {
+                navigateToSettingsWindow();
+            } else if (icon.id === "info") {
+                navigateToInfoWindow();
+            } else {
+                navigateToStatisticWindow();
+            }
+        });
+    }
+
 });
 
 let currentRow = 0;
@@ -187,4 +200,26 @@ function resetGame() {
     spots = rows[currentRow].children;
     guessed = guessedWord();
     secret = secretWord();
+}
+
+// ***************************************************************************
+
+/**
+ * Function to hide spots and keyboard block
+ */
+function hideSpotsAndKeyboard() {
+    let guessesArea = document.getElementById('guesses');
+    let keyboardArea = document.getElementById('keyboard');
+    guessesArea.style.display = 'none';
+    keyboardArea.style.display = 'none';
+}
+
+/**
+ * Function to show spots and keyboard block
+ */
+function showSpotsAndKeyboard() {
+    let guessesArea = document.getElementById('guesses');
+    let keyboardArea = document.getElementById('keyboard');
+    guessesArea.style.display = 'flex';
+    keyboardArea.style.display = 'flex';
 }
