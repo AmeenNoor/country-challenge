@@ -40,6 +40,20 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
+    let switchCheckbox = document.getElementById("switchCheckbox");
+    switchCheckbox.addEventListener("change", changeToDarkMode);
+
+    let playAgainWonButton = document.getElementById('play-again-win-button');
+    playAgainWonButton.addEventListener("click", function () {
+        resetGame();
+        hideCongratsMessage();
+    });
+
+    let playAgainLoseButton = document.getElementById('play-again-lose-button');
+    playAgainLoseButton.addEventListener("click", function () {
+        resetGame();
+        hideOopsMessage();
+    });
 
 
 });
@@ -161,9 +175,9 @@ function addColorToSpot() {
         if (guessed[i] === secret[i] && secret.includes(spots[i].textContent)) {
             spots[i].style.backgroundColor = "#7FFFD4";
         } else if (guessed[i] !== secret[i] && secret.includes(spots[i].textContent)) {
-            spots[i].style.backgroundColor = "#FBCEB1";
+            spots[i].style.backgroundColor = "#FE7F9C";
         } else {
-            spots[i].style.backgroundColor = "#E7E6E9";
+            spots[i].style.backgroundColor = "#7393B3";
         }
     }
 }
@@ -188,9 +202,9 @@ function addColorToKeyboard() {
                 if (secretLetterIndex === guessedLetterIndex) {
                     color = "#7FFFD4";
                 } else if (secret.includes(keyboardKeys[j].textContent)) {
-                    color = "#FBCEB1";
+                    color = "#FE7F9C";
                 } else {
-                    color = "#E7E6E9";
+                    color = "#7393B3";
                 }
             }
 

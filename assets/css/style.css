@@ -167,6 +167,18 @@ h1 {
     display: none;
 }
 
+#green {
+    color: #7FFFD4;
+}
+
+#pink {
+    color: #FE7F9C;
+}
+
+#blue-gray {
+    color: #7393B3;
+}
+
 /* BUTTON STYLES */
 /* Love Running Project (https://ameennoor.github.io/love-running/) */
 button {
@@ -275,4 +287,99 @@ input:checked+.slider:before {
 
 .slider.round:before {
     border-radius: 50%;
+}
+
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/* Media queries for larger to medium screens size from 1200px wide and down  */
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+
+@media screen and (max-width: 1200px) {
+
+    #setting-window,
+    #info-window,
+    #statistic-window,
+    #win,
+    #lose {
+        width: 40%;
+    }
+
+}
+
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*------ Media queries For medium screen sizes from 950px wide and down ------*/
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+
+@media screen and (max-width: 950px) {
+    #keyboard {
+        width: 70%;
+    }
+
+    .key {
+        width: 40px;
+        height: 40px;
+        margin: 3px;
+    }
+
+    .spot {
+        width: 40px;
+        height: 40px;
+        margin-right: 8px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .fa-solid {
+        margin: auto 80px;
+    }
+
+    #setting-window,
+    #info-window,
+    #statistic-window,
+    #win,
+    #lose {
+        width: 50%;
+    }
+
+    .fa-circle-xmark {
+        transform: translateX(80px);
+        /* https://stackoverflow.com/questions/60687582/css-transform-translatex-to-the-right */
+    }
+
+}
+
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*---------- Media queries For small screen sizes 700px and down  ------------*/
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+
+@media screen and (max-width: 700px) {
+
+    #keyboard {
+        width: 100%;
+    }
+
+    .key {
+        width: 30px;
+        height: 30px;
+    }
+
+    .spot {
+        width: 35px;
+        height: 35px;
+    }
+
+    #setting-window,
+    #info-window,
+    #statistic-window,
+    #win,
+    #lose {
+        width: 80%;
+    }
 }
