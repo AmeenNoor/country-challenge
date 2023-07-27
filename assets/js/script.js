@@ -369,3 +369,19 @@ function displayCongratsMessage() {
     info.style.display = 'none';
     hideSpotsAndKeyboard();
 }
+
+/**
+ * Function to hide congratulation message and display spots and keyboard block
+ */
+function hideCongratsMessage() {
+    let winDiv = document.getElementById('win');
+    let statistic = document.getElementById('statistic-window');
+    let setting = document.getElementById('setting-window');
+    let info = document.getElementById('info-window');
+    winDiv.style.display = 'none';
+    statistic.style.display = 'none';
+    setting.style.display = 'none';
+    info.style.display = 'none';
+    showSpotsAndKeyboard();
+    showIcons();
+}
