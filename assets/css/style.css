@@ -77,7 +77,6 @@ h1 {
     align-items: center;
     font-weight: bold;
     font-size: 14px;
-
 }
 
 /* KEYBOARD STYLES */
@@ -304,7 +303,6 @@ input:checked+.slider:before {
     #lose {
         width: 40%;
     }
-
 }
 
 /*----------------------------------------------------------------------------*/
@@ -314,6 +312,7 @@ input:checked+.slider:before {
 /*----------------------------------------------------------------------------*/
 
 @media screen and (max-width: 950px) {
+
     #keyboard {
         width: 70%;
     }
@@ -350,7 +349,6 @@ input:checked+.slider:before {
         transform: translateX(80px);
         /* https://stackoverflow.com/questions/60687582/css-transform-translatex-to-the-right */
     }
-
 }
 
 /*----------------------------------------------------------------------------*/
@@ -381,5 +379,9 @@ input:checked+.slider:before {
     #win,
     #lose {
         width: 80%;
+    }
+
+    .fa-solid {
+        margin: auto 60px;
     }
 }
