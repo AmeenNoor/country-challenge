@@ -40,8 +40,6 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    let switchCheckbox = document.getElementById("switchCheckbox");
-    switchCheckbox.addEventListener("change", changeToDarkMode);
 
 
 });
@@ -355,3 +353,19 @@ function changeToDarkMode(event) {
 }
 
 // ***************************************************************************
+
+/**
+ * Function to display congratulation message and hide others window
+ */
+function displayCongratsMessage() {
+    let winDiv = document.getElementById('win');
+    let statistic = document.getElementById('statistic-window');
+    let setting = document.getElementById('setting-window');
+    let info = document.getElementById('info-window');
+    winDiv.style.display = 'block';
+    hideIcons();
+    statistic.style.display = 'none';
+    setting.style.display = 'none';
+    info.style.display = 'none';
+    hideSpotsAndKeyboard();
+}
