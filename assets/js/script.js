@@ -40,6 +40,9 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
+    let switchCheckbox = document.getElementById("switchCheckbox");
+    switchCheckbox.addEventListener("change", changeToDarkMode);
+
 
 });
 
@@ -326,6 +329,29 @@ function closeStatisticWindow() {
     statistic.style.display = 'none';
     showSpotsAndKeyboard();
     showIcons();
+}
+
+// ***************************************************************************
+// https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp
+
+function changeToDarkMode(event) {
+    let bodyPage = document.body;
+    let statistic = document.getElementById('statistic-window');
+    let setting = document.getElementById('setting-window');
+    let info = document.getElementById('info-window');
+    if (event.target.checked) {
+        bodyPage.style.backgroundColor = '#303179';
+        bodyPage.style.color = '#f5cac2';
+        statistic.style.boxShadow = "0 0 60px 0 #f5cac2";
+        setting.style.boxShadow = "0 0 60px 0 #f5cac2";
+        info.style.boxShadow = "0 0 60px 0 #f5cac2";
+    } else {
+        bodyPage.style.backgroundColor = '#f5cac2';
+        bodyPage.style.color = '#303179';
+        statistic.style.boxShadow = "0 0 60px 0 #303179";
+        setting.style.boxShadow = "0 0 60px 0 #303179";
+        info.style.boxShadow = "0 0 60px 0 #303179";
+    }
 }
 
 // ***************************************************************************
