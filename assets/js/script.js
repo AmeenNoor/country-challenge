@@ -422,3 +422,30 @@ function hideOopsMessage() {
 }
 
 // ***************************************************************************
+// Love Maths Project(https://ameennoor.github.io/love-math/)
+
+/**
+ * Function to increment the games played score
+ */
+function incrementGamesPlayedScore() {
+    let oldScore = parseInt(document.getElementById("gamesPlayed").innerText);
+    document.getElementById("gamesPlayed").innerText = ++oldScore;
+}
+
+/**
+ * Function to increment the games won score
+ */
+function incrementGamesWonScore() {
+    let oldScore = parseInt(document.getElementById("gamesWon").innerText);
+    document.getElementById("gamesWon").innerText = ++oldScore;
+}
+
+/**
+ * Function to increment the games lost score
+ */
+function incrementGamesLostScore() {
+    let oldScore = parseInt(document.getElementById("gamesLost").innerText);
+    document.getElementById("gamesLost").innerText = ++oldScore;
+}
+
+// ***************************************************************************
