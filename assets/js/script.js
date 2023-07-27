@@ -240,3 +240,16 @@ function showIcons() {
     navIcon.style.display = 'flex';
 }
 
+/**
+ * Function to display settings window and hide other windows
+ */
+function navigateToSettingsWindow() {
+    let setting = document.getElementById('setting-window');
+    let info = document.getElementById('info-window');
+    let statistic = document.getElementById('statistic-window');
+    setting.style.display = 'block';
+    info.style.display = 'none';
+    statistic.style.display = 'none';
+    hideSpotsAndKeyboard();
+    hideIcons();
+}
