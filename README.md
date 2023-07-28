@@ -362,23 +362,13 @@ An open bug refers to a Safari bug that was identified during the testing phase.
 
 ### Media
 
-1. The fitness image on the home page is sourced from [Pikwizard](https://pikwizard.com/).
+1. The color scheme image is sourced from [Coolors](https://coolors.co/).
 
-2. The yoga, Zumba, and salsa dance images on the classes page are sourced from [Freepik](https://www.freepik.com/).
+2. The social media icons are sourced from [FontAwesome](https://fontawesome.com/).
 
-3. The Jiu Jitsu and Thai Boxing images on the classes page are sourced from [Unsplash](https://unsplash.com/).
+3. The fonts 'Rye' and 'Nanum Myeongjo' are sourced from [Google Fonts](https://fonts.google.com/).
 
-4. The Capoeira image on the classes page is sourced from [PxHere](https://pxhere.com/).
-
-5. The embedded map on the contact page is sourced from Google Maps.
-
-6. The color scheme image is sourced from [Coolors](https://coolors.co/).
-
-7. The social media icons are sourced from [FontAwesome](https://fontawesome.com/).
-
-8. The fonts 'Rye' and 'Nanum Myeongjo' are sourced from [Google Fonts](https://fonts.google.com/).
-
-9. The responsive image is generated using the [Am I Responsive](https://ui.dev/amiresponsive) tool.
+4. The responsive image is generated using the [Am I Responsive](https://ui.dev/amiresponsive) tool.
 
 ### Mentor
 

@@ -135,7 +135,8 @@ h1 {
 #info-window,
 #statistic-window,
 #win,
-#lose, #error-message {
+#lose,
+#error-message {
     border-radius: 10px;
     box-shadow: 0 0 60px 0 #303179;
     width: 30%;
@@ -179,7 +180,8 @@ h1 {
 
 /* BUTTON STYLES */
 /* Love Running Project (https://ameennoor.github.io/love-running/) */
-button, .button {
+button,
+.button {
     position: relative;
     top: 25%;
     left: 36%;
@@ -192,7 +194,8 @@ button, .button {
     box-shadow: 0 0 20px 0 #ed7966;
 }
 
-button:hover, .button:hover{
+button:hover,
+.button:hover {
     background-color: #fafafa;
     color: #f16c6b;
 }
@@ -358,6 +361,14 @@ input:checked+.slider:before {
 
 @media screen and (max-width: 700px) {
 
+    #icons {
+        margin-top: 30px;
+    }
+
+    #game {
+        margin-top: 30px;
+    }
+
     #keyboard {
         width: 100%;
     }
@@ -368,8 +379,20 @@ input:checked+.slider:before {
     }
 
     .spot {
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        padding-bottom: 10px;
+    }
+
+    p {
+        padding: 8px 10px;
     }
 
     #setting-window,
@@ -378,9 +401,23 @@ input:checked+.slider:before {
     #win,
     #lose {
         width: 80%;
+        height: 350px;
     }
 
     .fa-solid {
-        margin: auto 60px;
+        margin: auto 40px;
+    }
+
+    label {
+        left: 41%;
+    }
+    .fa-circle-xmark {
+        transform: translateX(40px);
+        /* https://stackoverflow.com/questions/60687582/css-transform-translatex-to-the-right */
+    }
+
+    button,
+    .button {
+        left: 30%;
     }
 }
