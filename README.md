@@ -1,4 +1,4 @@
-# ActiveBeat Center
+# Country Challenge
 
 ## Author
 
@@ -6,7 +6,7 @@ Ameen Noor
 
 ## Introduction
 
-ActiveBeat Center is a fitness facility located in Dublin. With a range of classes and activities like Crossfit, yoga, salsa dance, Brazilian Jiu Jitsu, Zumba, Capoeira, and Thai Boxing. The target users of the website are individuals who are interested in active and healthy lifestyle. The website provides information about classes, schedules and memberships. The website is designed to be responsive, ensuring access across all platforms for users interested in joining this inclusive fitness community.
+Welcome to "Country Challenge" – a fun and engaging online game where you get to guess the names of 5-letter countries! Similar to Wordle, you have 6 chances to figure out the correct country. It's a great way to test your geography knowledge. "Country Challenge" caters to all age groups and geography enthusiasts who love a good puzzle. The website offers three windows: the settings part allows you to change the website theme, the information part explains how to play the game, and the statistics part records the number of games played, wins, and losses. Moreover, the website is responsive, making it easy to play on any device. 
 
 ![Am I Responsive](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/responsive/am-i-responsive.png)
 
@@ -14,7 +14,7 @@ Click [here](https://ameennoor.github.io/activeBeat-center/) to visit the websit
 
 ## Table of Contents
 
-- [ActiveBeat Center](#activebeat-center)
+- [Country Challenge](#country-challenge)
   - [Author](#author)
   - [Introduction](#introduction)
   - [Table of Contents](#table-of-contents)
@@ -63,7 +63,7 @@ Click [here](https://ameennoor.github.io/activeBeat-center/) to visit the websit
 
 - #### Colors
 
-  The website's color scheme uses soft and warm tones that make people feel calm and relaxed. There is also a bright color that adds excitement and passion to the design. White is used for the background and text, making everything look clean and simple, plus a deep blue color with a hint of purple, which looks nice. The colors were picked to make the website look good, go well together, and connect with the fitness center's image and the people who visit the site.
+  The design colors used in the "Country Challenge" game create a visually appealing. The primary color scheme features a soft and warm background color (#f5cac2) with dark heading text color (#303179), this contrast enhances readability. The color-coded feedback for correct and incorrect guesses (green, pink, and gray) provides clear visual cues, helping players understand their progress. Additionally, the dark mode feature offers an alternative color scheme (#303179 background and #f5cac2 text) for a unique experience.
   ![colors](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/ux/design/colors.png)
 
 - #### Images
@@ -140,6 +140,8 @@ Click [here](https://ameennoor.github.io/activeBeat-center/) to visit the websit
 1. HTML
 
 2. CSS
+
+3. JavaScript
 
 ### Frameworks, Libraries and Programs Used
 
