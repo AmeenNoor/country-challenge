@@ -72,7 +72,7 @@ Click [here](https://ameennoor.github.io/country-challenge/) to visit the websit
   The navigation area in the "Country Challenge" game is enhanced with well-chosen design icons, adding both functionality and visual appeal. Three icons represent distinct sections: the gear icon represents the "Settings" section, the circle-info icon represents information section, and the chart-simple icon represents the "Statistics" section. Icons provide a user-friendly way for players to access essential game information, customize settings, and view their progress and statistics.
 
   <div align="center">
-    ![Icons](https://github.com/AmeenNoor/country-challenge/blob/main/assets/ux/design/icons.png)
+    <img src="https://github.com/AmeenNoor/country-challenge/blob/main/assets/ux/design/icons.png" alt="icons">
   </div>
 
 - #### Typography
@@ -325,11 +325,11 @@ View manual testing results [here!](https://docs.google.com/spreadsheets/d/16gx8
 - #### Validation Bug
   
   1. Home Page:
-  The bug in the code was related to a warning raised by the HTML validator. The warning indicated that a section lacked a heading, and suggested using heading elements `<h2>` to `<h6>` or using a `<div>` instead. To fix the bug, the `<section>` tag was replaced with a `<div>` tag in the "FITNESS IMAGE SECTION" part of the code.
+  The errors in the HTML code were fixed by adjusting the nesting of elements. The inappropriate placement of `<h2>` and `<p>` tags inside `<span>` elements was rectified. Proper closing of `<div>` elements and `<span>` elements was ensured, and comment syntax issues were addressed. These corrections eliminated the errors and resulted in error-free HTML code.
 
   ![Home Page Bug Fixed](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/testing/bug-fixed-home-page.png)
 
-  2. Bookclass Page:
+  1. Bookclass Page:
   The bug was caused by incomplete and empty `<option>` elements within the `<select>` tags in the HTML code. The issue was resolved by adding the `disabled` and `selected` attributes to the first `<option>` element in each `<select>` tag.
 
   ![Bookclass Page Bug Fixed](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/testing/bug-fixed-bookclass-page.png)

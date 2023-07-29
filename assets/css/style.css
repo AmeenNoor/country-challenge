@@ -135,8 +135,7 @@ h1 {
 #info-window,
 #statistic-window,
 #win,
-#lose,
-#error-message {
+#lose {
     border-radius: 10px;
     box-shadow: 0 0 60px 0 #303179;
     width: 30%;
@@ -180,8 +179,7 @@ h1 {
 
 /* BUTTON STYLES */
 /* Love Running Project (https://ameennoor.github.io/love-running/) */
-button,
-.button {
+button {
     position: relative;
     top: 25%;
     left: 36%;
@@ -194,8 +192,7 @@ button,
     box-shadow: 0 0 20px 0 #ed7966;
 }
 
-button:hover,
-.button:hover {
+button:hover {
     background-color: #fafafa;
     color: #f16c6b;
 }
@@ -411,6 +408,7 @@ input:checked+.slider:before {
     label {
         left: 41%;
     }
+
     .fa-circle-xmark {
         transform: translateX(40px);
         /* https://stackoverflow.com/questions/60687582/css-transform-translatex-to-the-right */
