@@ -228,7 +228,6 @@ function resetGame() {
     currentSpot = 0;
     currentRow = 0;
     spots = rows[currentRow].children;
-    guessed = guessedWord();
     secret = secretWord();
 }
 
@@ -363,12 +362,12 @@ function changeToDarkMode(event) {
         info.style.boxShadow = "0 0 60px 0 #f5cac2";
         winDiv.style.boxShadow = "0 0 60px 0 #f5cac2";
         loseDiv.style.boxShadow = "0 0 60px 0 #f5cac2";
-        for(let spot of spots){
+        for (let spot of spots) {
             spot.style.color = "#303179";
         }
-        for(let key of keys){
+        for (let key of keys) {
             key.style.color = "#303179";
-        }        
+        }
     } else {
         bodyPage.style.backgroundColor = '#f5cac2';
         bodyPage.style.color = '#303179';
@@ -422,7 +421,6 @@ function displayOopsMessage() {
     let statistic = document.getElementById('statistic-window');
     let setting = document.getElementById('setting-window');
     let info = document.getElementById('info-window');
-    let secret = secretWord();
     let secretInspan = document.getElementById('correct-country');
     secretInspan.innerText = secret;   // Love Maths project (https://ameennoor.github.io/love-math/)
     loseDiv.style.display = 'block';

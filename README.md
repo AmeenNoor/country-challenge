@@ -19,7 +19,6 @@ Click [here](https://ameennoor.github.io/country-challenge/) to visit the websit
   - [Introduction](#introduction)
   - [Table of Contents](#table-of-contents)
   - [User Experience (UX)](#user-experience-ux)
-    - [User storis](#user-storis)
     - [Design](#design)
     - [Wireframes](#wireframes)
   - [Features](#features)
@@ -30,7 +29,6 @@ Click [here](https://ameennoor.github.io/country-challenge/) to visit the websit
     - [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
   - [Deployment](#deployment)
   - [Testing](#testing)
-    - [Testing User Stories](#testing-user-stories)
     - [Validation Testing](#validation-testing)
     - [Compatibility and Responsive Testing](#compatibility-and-responsive-testing)
     - [Manual Testing](#manual-testing)
@@ -44,20 +42,6 @@ Click [here](https://ameennoor.github.io/country-challenge/) to visit the websit
     - [Mentor](#mentor)
 
 ## User Experience (UX)
-
-### User storis
-
-1. As a user, I want to easily navigate through the website, so I can find the information I need.
-
-2. As a user, I want to learn about ActiveBeat Center and its offerings, so I can understand if it meets my fitness needs.
-
-3. As a user, I want to find information about the different membership options, so I can choose the one that suits me best.
-
-4. As a user, I want to access the contact information of ActiveBeat Center, so I can get in touch with them if needed.
-
-5. As a user, I want to explore the different classes offered by ActiveBeat Center, so I can choose the ones that interest me.
-
-6. As a user, I want to easily access the social media pages of ActiveBeat Center, so I can stay updated on their activities and events.
 
 ### Design
 
@@ -181,6 +165,15 @@ Click [here](https://ameennoor.github.io/country-challenge/) to visit the websit
 5. [Google Fonts](https://fonts.google.com/):
    Google fonts were used to import 'nanum myeongjo' & 'Rye' fonts into the style.css file which are used on all pages throughout the project.
 
+6. [HTML Validator](https://validator.w3.org/):
+   The HTML code of the website was tested using the HTML Validator that provided by The World Wide Web Consortium (W3C).
+
+7. [Jigsaw](https://jigsaw.w3.org/css-validator/):
+   The CSS code of the website was tested using Jigsaw that provided by The World Wide Web Consortium (W3C).
+
+8. [Jshint](https://jshint.com/):
+   Jshint was used to validate javascript code.
+
 ## Deployment
 
 To deploy the project from GitHub, follow the steps below:
@@ -205,67 +198,32 @@ To deploy the project from GitHub, follow the steps below:
 
 ### Testing User Stories
 
-1. User Story: Easily Navigate Through the Website
-
-The test for the User Story "Easily Navigate Through the Website" was successfully completed. By clicking on the navigation links, such as "Home," "Classes," and "Contact Us," the corresponding pages were displayed as expected. The navigation links were functional and allowed seamless movement between different sections of the website.
-
-2. User Story: Learn About ActiveBeat Center and its Offerings
-
-By reading the content on the homepage and classes page, the services, classes, and facilities provided by ActiveBeat Center were understood. The information provided on these pages effectively communicated the offerings of ActiveBeat Center, including the different fitness programs available, class schedules, and any unique features or benefits.
-
-3. User Story: Find Information About Membership Options
-
-By navigating to the Home page, the details about the membership options, fees, and associated benefits were found. The information provided on these pages clearly outlined the various membership packages available, including pricing details, duration of membership, and any additional perks or privileges associated with each option. This allowed the user to make an informed decision and choose the membership option that best suited their needs.
-
-4. User Story: Access Contact Information of ActiveBeat Center
-
-By locating the "Contact Us" page or section, the necessary contact information, including the phone number, email address, and physical address, was found. The contact information provided was accurate and up-to-date, allowing users to easily reach out to ActiveBeat Center for any inquiries, appointments, or other communication needs.
-
-5. User Story: Explore Different Classes Offered by ActiveBeat Center
-
-By visiting the classes page, all the necessary information about each class, including schedules, descriptions, and any other relevant details, was reviewed. The class information provided was comprehensive and gave a clear understanding of the different classes offered by ActiveBeat Center. Users can now make informed decisions about which classes they would like to participate in based on their preferences, schedules, and fitness goals.
-
-6. User Story: Easily Access Social Media Pages of ActiveBeat Center
-
-By clicking on the social media icons, including Facebook, Instagram, YouTube, Twitter, and TikTok, it was confirmed that they redirected to the corresponding social media pages of ActiveBeat Center. This functionality allows users to easily access and connect with ActiveBeat Center's social media presence, enabling them to stay updated on the latest news, events, and promotions.
-
 ### Validation Testing
 
-The code of the website was tested using the HTML & CSS Validator provided by The World Wide Web Consortium (W3C).  The test results indicated that some of the HTML pages produced warning errors, while others passed without any errors. See screenshots below:
-
+The code of the website was tested using the HTML & CSS Validator provided by The World Wide Web Consortium (W3C).
 - #### HTML Validation
   
   1. Home page:
 
-  ![Home Page Test](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/testing/index-page-test.png)
+  ![Home Page Test1](https://github.com/AmeenNoor/country-challenge/blob/main/assets/testing/home-page1.png)
 
-  2. Classes Page:
+  ![Home Page Test2](https://github.com/AmeenNoor/country-challenge/blob/main/assets/testing/home-page2.png)
 
-  ![Classes Page Test](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/testing/classes-page.png)
+  ![Home Page Test3](https://github.com/AmeenNoor/country-challenge/blob/main/assets/testing/home-page3.png)
 
-  3. Contact us Page:
-
-  ![Contact Page Test](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/testing/contact-us-page.png)
-
-  4. Bookclass Page:
-
-  ![Bookclass Page Test](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/testing/bookclass-page-test.png)
-
-  5. Thankyou Page:
-
-  ![Thankyou Page Test](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/testing/thankyou-page-test.png)
-
-  6. 404 Page:
-
-  ![404 Page Test](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/testing/404-page-test.png)
+  ![Home Page Test4](https://github.com/AmeenNoor/country-challenge/blob/main/assets/testing/home-page4.png)
 
 - #### CSS Validation
   
-  ![CSS Test](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/testing/css-test.png)
+  ![CSS Test](https://github.com/AmeenNoor/country-challenge/blob/main/assets/testing/css-test.png)
+
+- #### JSHint JavaScript Validator
+  
+  ![JavaScript Test](https://github.com/AmeenNoor/country-challenge/blob/main/assets/testing/css-test.png)
 
 ### Compatibility and Responsive Testing
 
-The website was tested on various browsers and devices to ensure compatibility and optimal user experience. The testing process yielded successful results for most browsers and devices, except for Safari browser. In Safari, it was observed that the navigation menu was not displayed as expected. See table and screenshots below:
+The website was tested on various browsers and devices to ensure compatibility and optimal user experience. The testing process yielded successful results for most browsers and devices.
 
 <div align="center">
 
@@ -282,19 +240,6 @@ The website was tested on various browsers and devices to ensure compatibility a
 
 </div>
 
-- #### Safari browser
-
-  The screenshots below showcase the website being tested on Safari browser across different devices, including a MacBook Pro M1 and an iPhone 7 Plus. During the testing phase, an issue was identified where a portion of the navigation menu appeared to float down on these devices.
-
-- ##### MacBook Pro 13"
-
-    ![Safari-Macbook Pro Test](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/testing/safari-macbook-pro.png)
-
-- ##### iPhone 7 Plus
-
-    <div align="center">
-        <img src="https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/testing/safari-iphone-7-plus.jpeg" alt="Safari-iPhone 7 Plus" width="400px" height="600px">
-    </div>
 
 ### Manual Testing
 
@@ -310,15 +255,6 @@ View manual testing results [here!](https://docs.google.com/spreadsheets/d/1W85h
 
   ![Accessibility Test](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/testing/accessibility-test.png)
 
-- #### Keyboard Navigation
-
-  Keyboard Navigation testing was conduced on the website. keyboard was used for navigation and interaction, without relying on a mouse. The purpose of this testing was to ensure that all elements and features of the website could be accessed and operated through keyboard inputs. See image below:
-
- ![Keyboard Navigation](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/testing/keyboard-navigation.gif)
-
-- #### Screen Reader Testing
-
-  Screen Reader testing was done on the website, and ChromeVox extension in Google Chrome and VoiceOver on Mac were used for this purpose. Both screen readers were successfully able to read the content displayed on the screen.
 
 ### Fixing Bugs
 
@@ -327,40 +263,11 @@ View manual testing results [here!](https://docs.google.com/spreadsheets/d/1W85h
   1. Home Page:
   The errors in the HTML code were fixed by adjusting the nesting of elements. The inappropriate placement of `<h2>` and `<p>` tags inside `<span>` elements was rectified. Proper closing of `<div>` elements and `<span>` elements was ensured, and comment syntax issues were addressed. These corrections eliminated the errors and resulted in error-free HTML code.
 
-  ![Home Page Bug Fixed](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/testing/bug-fixed-home-page.png)
+  ![Home Page Bug Fixed](https://github.com/AmeenNoor/country-challenge/blob/main/assets/testing/bug-fixed-home-page.png)
 
-  1. Bookclass Page:
-  The bug was caused by incomplete and empty `<option>` elements within the `<select>` tags in the HTML code. The issue was resolved by adding the `disabled` and `selected` attributes to the first `<option>` element in each `<select>` tag.
-
-  ![Bookclass Page Bug Fixed](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/testing/bug-fixed-bookclass-page.png)
-  
-  3. Thankyou Page:
-  The bug in the code was related to a warning raised by the HTML validator. The warning indicated that a section lacked a heading, and suggested using heading elements `<h2>` to `<h6>` or using a `<div>` instead. To fix the bug, the `<section>` tag was replaced with a `<div>` tag in the "THANK YOU MESSAGE SECTION" part of the code.
-
-  ![Thankyou Page Bug Fixed](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/testing/bug-fixed-thankyou-page.png)
-
-  4. 404 Page:
-  The bug in the code was related to a warning raised by the HTML validator. The warning indicated that a section lacked a heading, and suggested using heading elements `<h2>` to `<h6>` or using a `<div>` instead. To fix the bug, the `<section>` tag was replaced with a `<div>` tag in the "404 WARNING MESSAGE SECTION" part of the code.
-
-  ![404 Page Bug Fixed](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/testing/bug-fixed-404-page.png)
-
-- #### Safari Bug
-
-  The bug was; during the testing phase, an issue was identified where a portion of the navigation menu appeared to float down on these devices. As a temporary solution, the bug was fixed by removing the "Us" portion from the "Contact Us" section.
-  
-  1. MacBook Pro 13":
-
-  ![Safari-Macbook Pro Bug Fixed](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/testing/bug-fixed-macbook.png)
-
-  2. iPhone 7 Plus:
-
-  <div align="center">
-    <img src="https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/testing/bug-fixed-iPhone.jpeg" alt="Safari-iPhone 7 Plus Bug Fixed" width="400px" height="600px">
-  </div>
-  
 ### Open Bugs
 
-An open bug refers to a Safari bug that was identified during the testing phase. The bug causes a portion of the navigation menu to appear floating down on certain devices. As a temporary solution, the bug was addressed by removing the "Us" portion from the "Contact Us" section. However, it is important to note that this is only a temporary fix, and the bug should be resolved in a proper and more permanent manner in the future.
+The "Country Challenge" code does not currently validate user input for valid words/countries, potentially accepting incorrect entries. To improve this, an API should be integrated in the future to verify whether the player's guessed word/country is real or not. If an invalid entry is detected, the game should prompt the player to provide a valid word/country for a better user experience.
 
 ## Credits
 
@@ -374,9 +281,9 @@ An open bug refers to a Safari bug that was identified during the testing phase.
 
 ### Content
 
-1. The settings and information section have been rephrased and adapted from Swan Leisure's website. You can find their website at: [Mind games](https://www.mindgames.com/game/Word+Guess).
+1. The settings and information section have been rephrased and adapted from Mind games website. You can find their website at: [Mind games](https://www.mindgames.com/game/Word+Guess).
 
-2. The 404 Error message has been adopted from an article titled "20 Best Free 404 Error Page Templates 2023" by Aigars Silkalns, published on January 7, 2023. You can read the article here: [20 Best Free 404 Error Page Templates 2023](https://colorlib.com/wp/free-404-error-page-templates/).
+2. The idea of statistic section have been adopted from Love Maths project. You can find the project at: [Love Maths](https://github.com/Code-Institute-Solutions/readme-love-maths).
 
 ### Media
 
