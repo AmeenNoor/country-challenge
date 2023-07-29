@@ -6,7 +6,7 @@ Ameen Noor
 
 ## Introduction
 
-Welcome to "Country Challenge" – a fun and engaging online game where you get to guess the names of 5-letter countries! Similar to Wordle, you have 6 chances to figure out the correct country. It's a great way to test your geography knowledge. "Country Challenge" caters to all age groups and geography enthusiasts who love a good puzzle. The website offers three windows: the settings part allows you to change the website theme, the information part explains how to play the game, and the statistics part records the number of games played, wins, and losses. Moreover, the website is responsive, making it easy to play on any device. 
+Welcome to "Country Challenge" – a fun and engaging online game where you get to guess the names of 5-letter countries! Similar to Wordle, you have 6 chances to figure out the correct country. It's a great way to test your geography knowledge. The game for all age groups and geography enthusiasts who love a good puzzle. The website offers three windows: the settings part allows you to change the website theme, the information part explains how to play the game, and the statistics part records the number of games played, wins, and losses. Moreover, the website is responsive, making it easy to play on any device. 
 
 ![Am I Responsive](https://github.com/AmeenNoor/country-challenge/blob/main/assets/responsive/am-i-responsive.png)
 
@@ -196,8 +196,6 @@ To deploy the project from GitHub, follow the steps below:
 
 ## Testing
 
-### Testing User Stories
-
 ### Validation Testing
 
 The code of the website was tested using the HTML & CSS Validator provided by The World Wide Web Consortium (W3C).
@@ -219,7 +217,7 @@ The code of the website was tested using the HTML & CSS Validator provided by Th
 
 - #### JSHint JavaScript Validator
   
-  ![JavaScript Test](https://github.com/AmeenNoor/country-challenge/blob/main/assets/testing/css-test.png)
+  ![JavaScript Test](https://github.com/AmeenNoor/country-challenge/blob/main/assets/testing/javascript-test.png)
 
 ### Compatibility and Responsive Testing
 
@@ -245,7 +243,7 @@ The website was tested on various browsers and devices to ensure compatibility a
 
 View manual testing results [here!](https://docs.google.com/spreadsheets/d/1W85h9iMh3DuUlf6qbAEOJAGxEFdf0eHEZkcWL2YOVOw/edit#gid=119546409)
 
-![Manual Testing Image](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/testing/manual-testing-image.png)
+![Manual Testing Image](https://github.com/AmeenNoor/country-challenge/blob/main/assets/testing/manual-testing.png)
 
 ### Accessibility
 
@@ -253,7 +251,7 @@ View manual testing results [here!](https://docs.google.com/spreadsheets/d/1W85h
 
   Accessibility testing was done on the website, and Lighthouse, a testing tool, was used for this purpose. The Lighthouse report, displayed in the provided screenshot, indicates a successful outcome of the accessibility testing.
 
-  ![Accessibility Test](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/testing/accessibility-test.png)
+  ![Accessibility Test](https://github.com/AmeenNoor/country-challenge/blob/main/assets/testing/accessibility-test.png)
 
 
 ### Fixing Bugs
