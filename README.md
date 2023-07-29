@@ -200,8 +200,6 @@ To deploy the project from GitHub, follow the steps below:
 
 The code of the website was tested using the HTML & CSS Validator provided by The World Wide Web Consortium (W3C).
 - #### HTML Validation
-  
-  1. Home page:
 
   ![Home Page Test1](https://github.com/AmeenNoor/country-challenge/blob/main/assets/testing/home-page1.png)
 
@@ -258,14 +256,13 @@ View manual testing results [here!](https://docs.google.com/spreadsheets/d/1W85h
 
 - #### Validation Bug
   
-  1. Home Page:
   The errors in the HTML code were fixed by adjusting the nesting of elements. The inappropriate placement of `<h2>` and `<p>` tags inside `<span>` elements was rectified. Proper closing of `<div>` elements and `<span>` elements was ensured, and comment syntax issues were addressed. These corrections eliminated the errors and resulted in error-free HTML code.
 
   ![Home Page Bug Fixed](https://github.com/AmeenNoor/country-challenge/blob/main/assets/testing/bug-fixed-home-page.png)
 
 ### Open Bugs
 
-The "Country Challenge" code does not currently validate user input for valid words/countries, potentially accepting incorrect entries. To improve this, an API should be integrated in the future to verify whether the player's guessed word/country is real or not. If an invalid entry is detected, the game should prompt the player to provide a valid word/country for a better user experience.
+The game does not currently validate user input for valid words/countries, potentially accepting incorrect entries. To improve this, an API should be integrated in the future to verify whether the player's guessed word/country is real or not. If an invalid entry is detected, the game should prompt the player to provide a valid word/country for a better user experience.
 
 ## Credits
 
