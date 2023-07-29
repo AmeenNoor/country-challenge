@@ -277,8 +277,8 @@ The website was tested on various browsers and devices to ensure compatibility a
 | dev tools: Galaxy S8      | Chrome          | Android  | 362 x 740    | ✔      |
 | real computer: Toshiba    | Microsoft Edge  | Windows 10 | 1366 x 768  | ✔      |
 | real computer: Toshiba    | Firefox         | Ubuntu 22.04 | 1920 x 1080 | ✔      |
-| real computer: MacBook Pro 13" | Safari    | iOS      | 1920 x 1080  | ✘      |
-| real mobile phone: iPhone 7 Plus | Safari    | iOS      | 1920 x 1080  | ✘      |
+| real computer: MacBook Pro 13" | Safari    | iOS      | 1920 x 1080  | ✔      |
+| real mobile phone: iPhone 7 Plus | Safari    | iOS      | 1920 x 1080  | ✔      |
 
 </div>
 
@@ -298,7 +298,7 @@ The website was tested on various browsers and devices to ensure compatibility a
 
 ### Manual Testing
 
-View manual testing results [here!](https://docs.google.com/spreadsheets/d/16gx87X14G3iNKbtTt4qVKPlQUPKv61Ia/edit?usp=sharing&ouid=114632238804209226224&rtpof=true&sd=true)
+View manual testing results [here!](https://docs.google.com/spreadsheets/d/1W85h9iMh3DuUlf6qbAEOJAGxEFdf0eHEZkcWL2YOVOw/edit#gid=119546409)
 
 ![Manual Testing Image](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/testing/manual-testing-image.png)
 
