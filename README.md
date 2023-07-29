@@ -64,15 +64,15 @@ Click [here](https://ameennoor.github.io/activeBeat-center/) to visit the websit
 - #### Colors
 
   The design colors used in the "Country Challenge" game create a visually appealing. The primary color scheme features a soft and warm background color (#f5cac2) with dark heading text color (#303179), this contrast enhances readability. The color-coded feedback for correct and incorrect guesses (green, pink, and gray) provides clear visual cues, helping players understand their progress. Additionally, the dark mode feature offers an alternative color scheme (#303179 background and #f5cac2 text) for a unique experience.
-  ![colors](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/ux/design/colors.png)
+  ![colors](https://github.com/AmeenNoor/country-challenge/blob/main/assets/ux/design/colors.png)
 
-- #### Images
+- #### Icons
 
-  Images are chosen for the website's home and classes pages to give visual appeal and provide information. fitness image in the header section represents the core theme of the website, showcasing a visually appealing depiction of fitness and exercise. On the classes page, each class is represented by an image that shows the nature of class.
+  The navigation area in the "Country Challenge" game is enhanced with well-chosen design icons, adding both functionality and visual appeal. Three icons represent distinct sections: the gear icon represents the "Settings" section, the circle-info icon represents information section, and the chart-simple icon represents the "Statistics" section. Icons provide a user-friendly way for players to access essential game information, customize settings, and view their progress and statistics.
 
 - #### Typography
 
-  The 'Rye' font was chosen for the logo part to give a nice appearance and clear visual. 'Nanum Myeongjo' was selected for its readability, ensuring clear body text.
+  The 'Rye' font was chosen for the title to give a nice appearance and clear visual. 'Nanum Myeongjo' was selected for its readability, ensuring clear body text.
   
   <div align="center">
     <img src="https://github.com/AmeenNoor/activeLife-center/assets/19653847/70e02090-847e-4d60-bbdc-653e96d1efda" alt="rye-font">
@@ -83,47 +83,53 @@ Click [here](https://ameennoor.github.io/activeBeat-center/) to visit the websit
 
 - #### Desktop
 
-<img src="https://github.com/AmeenNoor/country-challenge/blob/main/assets/ux/wireframes/wireframe-desktop.png" alt="Desktop 1" width="270px" height="270px">
+<img src="https://github.com/AmeenNoor/country-challenge/blob/main/assets/ux/wireframes/wireframe-desktop.png" alt="Desktop 1" align="middle">
 
 - #### Tablet
 
-  <img src="https://github.com/AmeenNoor/country-challenge/blob/main/assets/ux/wireframes/wireframe-tablet.png" alt="Tablet 1" width="250">
+  <img src="https://github.com/AmeenNoor/country-challenge/blob/main/assets/ux/wireframes/wireframe-tablet.png" alt="Tablet 1" width="250" align="middle">
 
 - #### Mobile
 
-  <img src="https://github.com/AmeenNoor/country-challenge/blob/main/assets/ux/wireframes/wireframe-mobile.png" alt="Mobile 1" width="200">
+  <img src="https://github.com/AmeenNoor/country-challenge/blob/main/assets/ux/wireframes/wireframe-mobile.png" alt="Mobile 1" width="200" align="middle">
 
 ## Features
 
 ### Implemented Features
 
-1. Navigation Bar: The website includes a navigation bar at the top, allowing users to easily navigate between different sections such as "Contact Us," "Classes," and "Home."
+1. Country Guessing Game: Players can enjoy a word-guessing game where they try to guess a 5-letter country name. They have 6 chances to make correct guesses.
 
-![Navigation Bar](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/features/nav-menu.png)
+![Country Guessing Game](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/features/e404-page.png)
 
-2. Contact Form: The "Contact Us" section provides a contact form where users can input their name, email, phone number, and message to get in touch with ActiveBeat Center.
+2. Color Feedback: After each guess, the spots change color to provide feedback on the accuracy of the guessed country name, making it easier for players to identify correct and incorrect letters.
 
-![Contact Form](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/features/contact-form.png)
+![Color Feedback](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/features/nav-menu.png)
 
-3. Google Maps Integration: The website incorporates a Google Maps iframe, providing a map view of the ActiveBeat Center's location.
+3. Navigation Icons: The navigation area features intuitive design icons representing "Settings," "How to Play," and "Statistics," allowing users to access relevant information and sections of the game efficiently.
 
-![Google Map](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/features/google-map.png)
+![Navigation Icons](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/features/nav-menu.png)
 
-4. Contact Information: The "Contact Us" section also displays the center's address, phone number, and email address, making it easy for users to reach out through different channels.
+4. Theme Settings: Users can customize the website's theme with a dark mode option, offering a visually appealing interface and allowing users to choose their preferred color scheme.
 
-![Contact Information](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/features/contact-information.png)
+![Theme Settings](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/features/contact-form.png)
 
-5. Social Media Links: The footer of the website includes links to the center's social media pages, such as Facebook, Instagram, YouTube, Twitter and TikTok, allowing users to connect and stay updated on their activities.
+5. Information Section: The "How to Play" window explains the rules of the game, guiding users on how to make guesses and feedback colors.
 
-![Social Media Links](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/features/social-media-icons.png)
+![Information Section](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/features/google-map.png)
 
-6. Thank You page: The website includes a Thank You page that display after users fill out a form. This page confirms the successful submission of the form and displays a message informing users that a team member will be contacting them soon.
+6. Statistics Tracking: The "Statistics" window records the number of games played, games won, and games lost, allowing users to track their progress and performance.
 
-![Thank You page](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/features/thankyou-message.png)
+![Statistics Tracking](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/features/contact-information.png)
 
-7. 404 page: The 404.html page effectively communicates the error of a requested page not found. It displays a warning message to inform the user about the issue and provides a clear button that links to the home page as a solution. This approach helps maintain a positive user experience by guiding users back to the main page and minimizing frustration.
+7. Congratulatory and Oops Messages: Upon winning or losing the game, users receive congratulatory or oops messages.
 
-![404 page](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/features/e404-page.png)
+![Congratulatory Messages](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/features/social-media-icons.png)
+
+![Oops Messages](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/features/social-media-icons.png)
+
+8. Play Again Functionality: Users can easily restart the game by clicking the "Play Again" button in the respective win or lose message window.
+
+![Play Again Functionality](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/features/thankyou-message.png)
 
 8. Responsive Design: The website appears to be designed with a responsive layout, ensuring optimal viewing and functionality across different devices and screen sizes.
 
@@ -169,19 +175,19 @@ To deploy the project from GitHub, follow the steps below:
 
 1. Click on the "Settings" tab located near the top-right corner of the repository page (see screenshot below):
 
-![Deployment_1](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/deployment/deployment-image1.png)
+![Deployment_1](https://github.com/AmeenNoor/country-challenge/blob/main/assets/deployment/deployment-image1.png)
 
 2. Scroll down the settings page and click "Pages", on the left side (see screenshot below):
 
-![Deployment_2](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/deployment/deployment-image2.png)
+![Deployment_2](https://github.com/AmeenNoor/country-challenge/blob/main/assets/deployment/deployment-image2.png)
 
 3. In the "Source" dropdown menu, select "main" and click "Save" (see screenshot below):
 
-![Deployment_3](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/deployment/deployment-image3.png)
+![Deployment_3](https://github.com/AmeenNoor/country-challenge/blob/main/assets/deployment/deployment-image3.png)
 
 4. Scroll back up to the "GitHub Pages" section, and you will find a URL . (Note: It may take a few moments for GitHub Pages to build and deploy the project.) (see screenshot below):
 
-![Deployment_4](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/deployment/deployment-image4.png)
+![Deployment_4](https://github.com/AmeenNoor/country-challenge/blob/main/assets/deployment/deployment-image4.png)
 
 ## Testing
 
