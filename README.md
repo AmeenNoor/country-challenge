@@ -8,9 +8,9 @@ Ameen Noor
 
 Welcome to "Country Challenge" – a fun and engaging online game where you get to guess the names of 5-letter countries! Similar to Wordle, you have 6 chances to figure out the correct country. It's a great way to test your geography knowledge. "Country Challenge" caters to all age groups and geography enthusiasts who love a good puzzle. The website offers three windows: the settings part allows you to change the website theme, the information part explains how to play the game, and the statistics part records the number of games played, wins, and losses. Moreover, the website is responsive, making it easy to play on any device. 
 
-![Am I Responsive](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/responsive/am-i-responsive.png)
+![Am I Responsive](https://github.com/AmeenNoor/country-challenge/blob/main/assets/responsive/am-i-responsive.png)
 
-Click [here](https://ameennoor.github.io/activeBeat-center/) to visit the website.
+Click [here](https://ameennoor.github.io/country-challenge/) to visit the website.
 
 ## Table of Contents
 
@@ -64,34 +64,45 @@ Click [here](https://ameennoor.github.io/activeBeat-center/) to visit the websit
 - #### Colors
 
   The design colors used in the "Country Challenge" game create a visually appealing. The primary color scheme features a soft and warm background color (#f5cac2) with dark heading text color (#303179), this contrast enhances readability. The color-coded feedback for correct and incorrect guesses (green, pink, and gray) provides clear visual cues, helping players understand their progress. Additionally, the dark mode feature offers an alternative color scheme (#303179 background and #f5cac2 text) for a unique experience.
+  
   ![colors](https://github.com/AmeenNoor/country-challenge/blob/main/assets/ux/design/colors.png)
 
 - #### Icons
 
   The navigation area in the "Country Challenge" game is enhanced with well-chosen design icons, adding both functionality and visual appeal. Three icons represent distinct sections: the gear icon represents the "Settings" section, the circle-info icon represents information section, and the chart-simple icon represents the "Statistics" section. Icons provide a user-friendly way for players to access essential game information, customize settings, and view their progress and statistics.
 
+  <div align="center">
+    ![Icons](https://github.com/AmeenNoor/country-challenge/blob/main/assets/ux/design/icons.png)
+  </div>
+
 - #### Typography
 
   The 'Rye' font was chosen for the title to give a nice appearance and clear visual. 'Nanum Myeongjo' was selected for its readability, ensuring clear body text.
   
   <div align="center">
-    <img src="https://github.com/AmeenNoor/activeLife-center/assets/19653847/70e02090-847e-4d60-bbdc-653e96d1efda" alt="rye-font">
-    <img src="https://github.com/AmeenNoor/activeLife-center/assets/19653847/b744b425-ff2e-4824-97ab-2f60627eafcc" alt="nanum-myeongjo-font">
+    <img src="https://github.com/AmeenNoor/country-challenge/blob/main/assets/ux/design/rye-font.png" alt="rye-font">
+    <img src="https://github.com/AmeenNoor/country-challenge/blob/main/assets/ux/design/nanum-myeongjo-font.png" alt="nanum-myeongjo-font">
   </div>
 
 ### Wireframes
 
 - #### Desktop
 
-<img src="https://github.com/AmeenNoor/country-challenge/blob/main/assets/ux/wireframes/wireframe-desktop.png" alt="Desktop 1" align="middle">
+<div align="center">
+    <img src="https://github.com/AmeenNoor/country-challenge/blob/main/assets/ux/wireframes/wireframe-desktop.png" alt="Desktop 1">
+</div>
 
 - #### Tablet
 
-  <img src="https://github.com/AmeenNoor/country-challenge/blob/main/assets/ux/wireframes/wireframe-tablet.png" alt="Tablet 1" width="250" align="middle">
+<div align="center">
+    <img src="https://github.com/AmeenNoor/country-challenge/blob/main/assets/ux/wireframes/wireframe-tablet.png" alt="Tablet 1">
+</div>
 
 - #### Mobile
 
-  <img src="https://github.com/AmeenNoor/country-challenge/blob/main/assets/ux/wireframes/wireframe-mobile.png" alt="Mobile 1" width="200" align="middle">
+<div align="center">
+    <img src="https://github.com/AmeenNoor/country-challenge/blob/main/assets/ux/wireframes/wireframe-mobile.png" alt="Mobile 1">
+</div>
 
 ## Features
 
@@ -99,45 +110,49 @@ Click [here](https://ameennoor.github.io/activeBeat-center/) to visit the websit
 
 1. Country Guessing Game: Players can enjoy a word-guessing game where they try to guess a 5-letter country name. They have 6 chances to make correct guesses.
 
-![Country Guessing Game](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/features/e404-page.png)
+![Country Guessing Game](https://github.com/AmeenNoor/country-challenge/blob/main/assets/features/country-guessing.png)
 
 2. Color Feedback: After each guess, the spots change color to provide feedback on the accuracy of the guessed country name, making it easier for players to identify correct and incorrect letters.
 
-![Color Feedback](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/features/nav-menu.png)
+![Color Feedback](https://github.com/AmeenNoor/country-challenge/blob/main/assets/features/color-feedback.png)
 
 3. Navigation Icons: The navigation area features intuitive design icons representing "Settings," "How to Play," and "Statistics," allowing users to access relevant information and sections of the game efficiently.
 
-![Navigation Icons](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/features/nav-menu.png)
+![Navigation Icons](https://github.com/AmeenNoor/country-challenge/blob/main/assets/features/navigation-icons.png)
 
 4. Theme Settings: Users can customize the website's theme with a dark mode option, offering a visually appealing interface and allowing users to choose their preferred color scheme.
 
-![Theme Settings](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/features/contact-form.png)
+![Theme Settings](https://github.com/AmeenNoor/country-challenge/blob/main/assets/features/theme-settings.png)
 
 5. Information Section: The "How to Play" window explains the rules of the game, guiding users on how to make guesses and feedback colors.
 
-![Information Section](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/features/google-map.png)
+![Information Section](https://github.com/AmeenNoor/country-challenge/blob/main/assets/features/information-section.png)
 
 6. Statistics Tracking: The "Statistics" window records the number of games played, games won, and games lost, allowing users to track their progress and performance.
 
-![Statistics Tracking](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/features/contact-information.png)
+![Statistics Tracking](https://github.com/AmeenNoor/country-challenge/blob/main/assets/features/statistics-tracking.png)
 
 7. Congratulatory and Oops Messages: Upon winning or losing the game, users receive congratulatory or oops messages.
 
-![Congratulatory Messages](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/features/social-media-icons.png)
+![Congratulatory Messages](https://github.com/AmeenNoor/country-challenge/blob/main/assets/features/congratulatory-message.png)
 
-![Oops Messages](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/features/social-media-icons.png)
+![Oops Messages](https://github.com/AmeenNoor/country-challenge/blob/main/assets/features/oops-message.png)
 
 8. Play Again Functionality: Users can easily restart the game by clicking the "Play Again" button in the respective win or lose message window.
 
-![Play Again Functionality](https://github.com/AmeenNoor/activeBeat-center/blob/main/assets/features/thankyou-message.png)
+![Play Again Functionality](https://github.com/AmeenNoor/country-challenge/blob/main/assets/features/play-again-functionality.png)
 
 8. Responsive Design: The website appears to be designed with a responsive layout, ensuring optimal viewing and functionality across different devices and screen sizes.
 
 ### Future Features
 
-1. Testimonial Page: Create a dedicated page where users can view ratings, reviews, and feedback from current and past members. This will help users compare the ActiveBeat Center to other fitness centers and make decisions.
+1. API Auto Generate Word: Instead of using a static WordList, a dynamic API can be integrated into the game to automatically generate country names as the secret word for each round. This would add variety and ensure that players get a unique challenge with each attempt.
 
-2. FAQ Page: Create a Frequently Asked Questions (FAQ) page that addresses common inquiries about membership, facilities, classes, trainers, and any other relevant topics. This will provide users with quick and easy access to essential information.
+2. API Word Validation: An API that checks if the guessed word is a valid country name in the first place can enhance the game's integrity. It would prevent players from entering random or incorrect words, providing them with immediate feedback if their guess is not a valid country name.
+
+3. Difficulty Levels: Adding a Difficulty Level feature in the settings section would allow users to choose the level of challenge they prefer.
+
+4. Custom Word Length: Implementing a "Custom Word Length" feature would offer players the ability to choose the length of the country name they want to guess. Rather than being restricted to a fixed 5-letter word.
 
 ## Technologies Used
 
@@ -165,9 +180,6 @@ Click [here](https://ameennoor.github.io/activeBeat-center/) to visit the websit
 
 5. [Google Fonts](https://fonts.google.com/):
    Google fonts were used to import 'nanum myeongjo' & 'Rye' fonts into the style.css file which are used on all pages throughout the project.
-
-6. [ChromeVox](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn):
-   ChromeVox extension in Google Chrome was used to perform Screen Reader Testing.
 
 ## Deployment
 
@@ -356,17 +368,15 @@ An open bug refers to a Safari bug that was identified during the testing phase.
 
 1. The GitHub repository was created using the "Code Institute template." You can find the template at: [Code Institute Template](https://github.com/Code-Institute-Org/ci-full-template).
 
-2. The logo, navigation menu, and footer section have been adopted from the "love-running" project. You can view the project at: [Love Running](https://ameennoor.github.io/love-running/).
+2. The part "Wait for the DOM to finish loading before running the game" and the statistic functions have been adopted from the "love-maths" project. You can view the project at: [Love Maths](https://ameennoor.github.io/love-math/).
 
-3. The classes display utilizes the concept of Flexbox, which was adopted from the W3Schools CSS Flexbox tutorial. You can learn more about Flexbox here: [W3Schools - CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp).
+3. The keyboard letters and spots display utilize the concept of Flexbox, which was adopted from the W3Schools CSS Flexbox tutorial. You can learn more about Flexbox here: [W3Schools - CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp).
 
 ### Content
 
-1. The membership section on the home page has been rephrased and adapted from Swan Leisure's website. You can find their website at: [Swan Leisure](https://www.swanleisure.ie/).
+1. The settings and information section have been rephrased and adapted from Swan Leisure's website. You can find their website at: [Mind games](https://www.mindgames.com/game/Word+Guess).
 
-2. The content on the classes page has been rephrased and adopted from "Blue Nile Life Style." You can find more information about them on their Facebook page: [Blue Nile Life Style](https://www.facebook.com/BlueFitness82/).
-
-3. The 404 Error message has been adopted from an article titled "20 Best Free 404 Error Page Templates 2023" by Aigars Silkalns, published on January 7, 2023. You can read the article here: [20 Best Free 404 Error Page Templates 2023](https://colorlib.com/wp/free-404-error-page-templates/).
+2. The 404 Error message has been adopted from an article titled "20 Best Free 404 Error Page Templates 2023" by Aigars Silkalns, published on January 7, 2023. You can read the article here: [20 Best Free 404 Error Page Templates 2023](https://colorlib.com/wp/free-404-error-page-templates/).
 
 ### Media
 
